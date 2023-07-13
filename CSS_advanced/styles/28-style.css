@@ -392,7 +392,6 @@ ul.row {
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
-    color: var(--color-primary);
 }
 
 .card-testimonial .card-quote cite {
@@ -418,8 +417,11 @@ ul.row {
 }
 
 .header-logo {
-    display: var(--header-logo-link-display);
+    position: var(--header-logo-position);
+}
 
+.header-logo {
+    position: var(--header-logo-position);
 }
 
 .header-logo a {
