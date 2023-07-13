@@ -45,9 +45,12 @@ a:visited {
     font-style: italic;
 }
 
-a:hover,
-a:active {
+a:hover {
     background-color: var(--color-light-grey);
+}
+
+a:active {
+    background-color: lightgrey;
 }
 
 .visually-hidden {
