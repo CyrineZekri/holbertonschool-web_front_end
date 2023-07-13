@@ -46,11 +46,11 @@ a:visited {
 }
 
 a:hover {
-    background-color: var(--color-light-grey);
+    text-decoration: underline;
 }
 
 a:active {
-    background-color: lightgrey;
+    background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
